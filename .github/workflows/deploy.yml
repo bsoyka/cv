@@ -27,7 +27,7 @@ jobs:
 
       - name: Copy PDF into website repo
         run: |
-          cp cv.pdf website-repo/public/cv.pdf
+          cp rendercv_output/Ben_Soyka_CV.pdf website-repo/public/cv.pdf
 
       - name: Configure Git user
         run: |
