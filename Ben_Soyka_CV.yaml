@@ -78,9 +78,11 @@ cv:
         summary: Recognized in two semesters for "superior academic performance."
       - name: Operation Homefront Military Child of the Year Semifinalist
         date: 2024-01
+        location: San Antonio, TX
         summary: Awarded for positively impacting local military families, schools, and communities.
       - name: Boy Scouts of America Eagle Scout
         date: 2023-10
+        location: Fort Leavenworth, KS
         summary: Demonstrated long-term leadership, initiative, and commitment to community service.
       - name: US Army Civilian Service Achievement Medal
         date: 2022-04
