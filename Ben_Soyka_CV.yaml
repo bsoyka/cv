@@ -38,6 +38,17 @@ cv:
         highlights:
           - Provide essential support at 24/7 information desks in student residential halls, ensuring efficient customer service while also responding to building emergencies.
           - Work independently during overnight and late-hour shifts, demonstrating reliability and independence.
+    projects:
+      - name: "[Wikipedia Editing Bot](https://github.com/bsoyka/wikipedia-bot)"
+        start_date: 2022-03
+        highlights:
+          - Used Python to develop several scripts that perform daily automated edits on the English Wikipedia through the MediaWiki API.
+          - Reduced errors and mistakes to near-zero as the bot has performed over 20,000 trivial edits on live articles, saving human editors valuable time.
+      - name: "[Personal Website](https://bsoyka.me)"
+        start_date: 2020-08
+        highlights:
+          - Designed and built a personal landing page from scratch using Astro, Svelte, UnoCSS, and Motion, with a focus on accessibility, responsiveness, and mobile-friendliness.
+          - Manage the live deployment using Cloudflare Workers.
     "Activities and Leadership":
       - company: UMN Twin Cities Rotaract Club
         position: Vice President, Past Communications Coordinator
