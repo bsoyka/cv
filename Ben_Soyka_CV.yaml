@@ -1,10 +1,8 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.5/schema.json
 cv:
   name: Ben Soyka
-  headline:
   location: Minneapolis, MN
   email: hello@bsoyka.me
-  photo:
   phone: +1-253-344-0299
   website: https://bsoyka.me
   social_networks:
@@ -12,7 +10,6 @@ cv:
       username: bsoyka
     - network: GitHub
       username: bsoyka
-  custom_connections:
   sections:
     summary:
       - Creative and motivated undergraduate computer science student looking forward to gaining real-life industry experience in a fast-paced team. Passionate about guiding others through all things technology and excited to leverage skills learned in classes and activities to help other people.
