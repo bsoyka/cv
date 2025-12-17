@@ -1,5 +1,8 @@
 name: Build and publish CV PDF
 
+permissions:
+  contents: read
+
 on:
   push:
     branches:
@@ -20,8 +23,10 @@ jobs:
     steps:
       - name: Check out CV repo
         uses: actions/checkout@v6
+        with:
+          persist-credentials: false
 
-      - uses: jdx/mise-action@v3
+      - uses: jdx/mise-action@146a28175021df8ca24f8ee1828cc2a60f980bd5 # v3.5.1
 
       - name: Build CV PDF
         run: mise build
@@ -32,6 +37,7 @@ jobs:
           repository: bsoyka/website
           token: ${{ secrets.WEBSITE_PUSH_TOKEN }}
           path: website-repo
+          persist-credentials: true
 
       - name: Copy PDF into website repo
         run: |
