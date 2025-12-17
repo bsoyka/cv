@@ -1,0 +1,46 @@
+name: Build and publish CV PDF
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out CV repo
+        uses: actions/checkout@v6
+
+      - uses: jdx/mise-action@v3
+
+      - name: Build CV PDF
+        run: mise build
+
+      - name: Check out website repo
+        uses: actions/checkout@v6
+        with:
+          repository: bsoyka/website
+          token: ${{ secrets.WEBSITE_PUSH_TOKEN }}
+          path: website-repo
+
+      - name: Copy PDF into website repo
+        run: |
+          cp cv.pdf website-repo/public/cv.pdf
+
+      - name: Configure Git user
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions@github.com"
+
+      - name: Commit and push updated PDF
+        working-directory: website-repo
+        run: |
+          git add public/cv.pdf
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: update CV [skip ci]" -m "From https://gh.bsoyka.me/cv"
+          git push origin HEAD

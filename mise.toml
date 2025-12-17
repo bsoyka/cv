@@ -7,4 +7,4 @@ python.uv_venv_auto = true
 
 [tasks.build]
 description = "Render the CV"
-run = "rendercv render Ben_Soyka_CV.yaml"
+run = "uv run rendercv render Ben_Soyka_CV.yaml"
