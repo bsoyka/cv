@@ -21,7 +21,6 @@ cv:
         area: Computer Science
         degree: BS
         start_date: 2024-08
-        end_date: present
         location: Minneapolis, MN
         highlights:
           - "Cumulative GPA: 3.77"
@@ -35,7 +34,6 @@ cv:
       - company: University of Minnesota Housing and Residential Life
         position: Office Assistant
         start_date: 2025-01
-        end_date: present
         location: Minneapolis, MN
         highlights:
           - Provide essential support at 24/7 information desks in student residential halls, ensuring efficient customer service while also responding to building emergencies.
@@ -44,7 +42,6 @@ cv:
       - company: UMN Twin Cities Rotaract Club
         position: Vice President, Past Communications Coordinator
         start_date: 2024-09
-        end_date: present
         location: Minneapolis, MN
         highlights:
           - Assist in leading an active student organization dedicated to volunteering with various community initiatives in the Minneapolis area.
@@ -53,7 +50,6 @@ cv:
       - company: UMN Rocket Team
         position: Member, Special Projects Subteam
         start_date: 2025-09
-        end_date: present
         location: Minneapolis, MN
         highlights:
           - Research, develop, and test high-powered amateur rocketry projects focused on testing new concepts, including two-stage flights.
