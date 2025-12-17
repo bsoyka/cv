@@ -46,6 +46,12 @@ cv:
         highlights:
           - Designed and built a personal landing page from scratch using Astro, Svelte, UnoCSS, and Motion, with a focus on accessibility, responsiveness, and mobile-friendliness.
           - Manage the live deployment using Cloudflare Workers.
+      - name: "[Advent of Code Practice](https://github.com/bsoyka/advent-of-code)"
+        start_date: 2019-12
+        highlights:
+          - Solved 100+ programming puzzles during annual Advent of Code events using Python, practicing dynamic programming, graph algorithms, and testing workflows.
+          - Learned techniques to process large inputs with efficiency and accuracy.
+          - Maintain a collection of public solutions with proper documentation and a focus on clean, easy-to-understand code.
     "Activities and Leadership":
       - company: UMN Twin Cities Rotaract Club
         position: Vice President, Past Communications Coordinator
