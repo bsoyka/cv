@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - main
+    paths:
+      - Ben_Soyka_CV.yaml
+  workflow_dispatch:
 
 jobs:
   build-and-publish:
