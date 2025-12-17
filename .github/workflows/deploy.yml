@@ -7,7 +7,12 @@ on:
 
 jobs:
   build-and-publish:
+    name: Build and publish
     runs-on: ubuntu-latest
+
+    environment:
+      name: production
+      url: https://bsoyka.me/cv.pdf
 
     steps:
       - name: Check out CV repo
