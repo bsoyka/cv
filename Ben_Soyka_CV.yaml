@@ -1,0 +1,79 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.5/schema.json
+cv:
+  name: Ben Soyka
+  headline:
+  location: Minneapolis, MN
+  email: hello@bsoyka.me
+  photo:
+  phone: +1-253-344-0299
+  website: https://bsoyka.me
+  social_networks:
+    - network: LinkedIn
+      username: bsoyka
+    - network: GitHub
+      username: bsoyka
+  custom_connections:
+  sections:
+    summary:
+      - Creative and motivated undergraduate computer science student looking forward to gaining real-life industry experience in a fast-paced team. Passionate about guiding others through all things technology and excited to leverage skills learned in classes and activities to help other people.
+    education:
+      - institution: University of Minnesota - Twin Cities
+        area: Computer Science
+        degree: BS
+        start_date: 2024-08
+        end_date: present
+        location: Minneapolis, MN
+        highlights:
+          - "Cumulative GPA: 3.77"
+          - "Anticipated graduation: Dec 2027"
+    skills:
+      - label: Programming Languages
+        details: Python, Java, R, C, OCaml, HTML, JavaScript, CSS
+      - label: Tools
+        details: Git/GitHub, Docker, Amazon Web Services, macOS, Linux, Windows
+    experience:
+      - company: University of Minnesota Housing and Residential Life
+        position: Office Assistant
+        start_date: 2025-01
+        end_date: present
+        location: Minneapolis, MN
+        highlights:
+          - "Provide essential support by working at the 24/7 information desks in student residential halls, ensuring prompt and efficient customer service while also responding to building emergencies."
+          - "Regularly work independently during overnight and late-hour shifts, demonstrating reliability and the ability to manage operations single-handedly."
+    "Activities and Leadership":
+      - company: UMN Twin Cities Rotaract Club
+        position: Vice President, President-Elect, Past Communications Coordinator
+        start_date: 2024-09
+        end_date: present
+        location: Minneapolis, MN
+        summary: Assist in leading an active student organization dedicated to volunteering with various community initiatives in the Minneapolis metropolitan area.
+      - company: UMN Rocket Team
+        position: Member, Special Projects Subteam
+        start_date: 2025-09
+        end_date: present
+        location: Minneapolis, MN
+        summary: Work on various high-powered amateur rocketry projects, including a personal scratch-built rocket used to earn a Level 1 certification from the Tripoli Rocketry Association.
+      - company: UMN Science and Engineering Student Board
+        position: Mental Health Subdirector
+        start_date: 2024-09
+        end_date: 2025-05
+        location: Minneapolis, MN
+        summary: Worked with other college-level student and administrative leadership to plan events that promoted positivity in the University of Minnesota community.
+    awards:
+      - name: UMN College of Science and Engineering Dean's List
+        date: Two semesters
+      - name: Operation Homefront Military Child of the Year Semifinalist
+        date: 2024-01
+      - name: Boy Scouts of America Eagle Scout
+        date: 2023-10
+      - name: US Army Civilian Service Achievement Medal
+        date: 2022-04
+design:
+  theme: classic
+settings:
+  render_command:
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_typst: false # Needed for PDF
+    dont_generate_pdf: false
+    dont_generate_png: true
