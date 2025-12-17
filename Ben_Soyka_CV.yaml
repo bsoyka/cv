@@ -38,36 +38,47 @@ cv:
         end_date: present
         location: Minneapolis, MN
         highlights:
-          - "Provide essential support by working at the 24/7 information desks in student residential halls, ensuring prompt and efficient customer service while also responding to building emergencies."
-          - "Regularly work independently during overnight and late-hour shifts, demonstrating reliability and the ability to manage operations single-handedly."
+          - Provide essential support at 24/7 information desks in student residential halls, ensuring efficient customer service while also responding to building emergencies.
+          - Work independently during overnight and late-hour shifts, demonstrating reliability and independence.
     "Activities and Leadership":
       - company: UMN Twin Cities Rotaract Club
-        position: Vice President, President-Elect, Past Communications Coordinator
+        position: Vice President, Past Communications Coordinator
         start_date: 2024-09
         end_date: present
         location: Minneapolis, MN
-        summary: Assist in leading an active student organization dedicated to volunteering with various community initiatives in the Minneapolis metropolitan area.
+        highlights:
+          - Assist in leading an active student organization dedicated to volunteering with various community initiatives in the Minneapolis area.
+          - Elected as president for the 2026–2027 academic year.
+          - Previously managed professional email communications to over 200 club members.
       - company: UMN Rocket Team
         position: Member, Special Projects Subteam
         start_date: 2025-09
         end_date: present
         location: Minneapolis, MN
-        summary: Work on various high-powered amateur rocketry projects, including a personal scratch-built rocket used to earn a Level 1 certification from the Tripoli Rocketry Association.
+        highlights:
+          - Research, develop, and test high-powered amateur rocketry projects focused on testing new concepts, including two-stage flights.
+          - Designed, built, and launched a personal rocket used to earn a Level 1 certification from the Tripoli Rocketry Association.
       - company: UMN Science and Engineering Student Board
         position: Mental Health Subdirector
         start_date: 2024-09
         end_date: 2025-05
         location: Minneapolis, MN
-        summary: Worked with other college-level student and administrative leadership to plan events that promoted positivity in the University of Minnesota community.
+        highlights:
+          - Worked with other college-level student and administrative leadership to plan events that promoted positivity in the University of Minnesota community.
     awards:
       - name: UMN College of Science and Engineering Dean's List
-        date: Two semesters
+        location: Minneapolis, MN
+        summary: Recognized in two semesters for "superior academic performance."
       - name: Operation Homefront Military Child of the Year Semifinalist
         date: 2024-01
+        summary: Awarded for positively impacting local military families, schools, and communities.
       - name: Boy Scouts of America Eagle Scout
         date: 2023-10
+        summary: Demonstrated long-term leadership, initiative, and commitment to community service.
       - name: US Army Civilian Service Achievement Medal
         date: 2022-04
+        location: El Paso, TX
+        summary: Awarded for supporting morale activities for thousands of military family members.
 design:
   theme: classic
 settings:
