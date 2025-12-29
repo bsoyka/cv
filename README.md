@@ -35,8 +35,24 @@ within a directory called `rendercv_output/`.
 
 ```mermaid
 flowchart LR
-    A[YAML source] --> B[Typst document]
-    B --> C[Rendered PDF]
+  subgraph cv["bsoyka/cv"]
+    YAML@{ shape: doc, label: "YAML Source" }
+
+    subgraph actions["GitHub Actions, on push"]
+        RenderCV@{ shape: process }
+        Compiled@{ shape: docs, label: "Compiled Typst file and resulting PDF document" }
+        Push@{ shape: process, label: "git commit and push" }
+    end
+  end
+
+  subgraph website["bsoyka/website"]
+    PDF@{ shape: doc, label: "Published copy of PDF" }
+  end
+
+  YAML --> RenderCV
+  RenderCV --> Compiled
+  Compiled --> Push
+  Push --> PDF
 ```
 
 To watch the source file for changes and continuously build the output, run
