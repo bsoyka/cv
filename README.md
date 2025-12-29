@@ -39,6 +39,9 @@ flowchart LR
     YAML@{ shape: doc, label: "YAML Source" }
 
     subgraph actions["GitHub Actions, on push"]
+        Mise["mise-en-place"]
+        Uv["uv"]
+        Python
         RenderCV@{ shape: process }
         Compiled@{ shape: docs, label: "Compiled Typst file and resulting PDF document" }
         Push@{ shape: process, label: "git commit and push" }
@@ -53,6 +56,11 @@ flowchart LR
   RenderCV --> Compiled
   Compiled --> Push
   Push --> PDF
+
+  Mise -->|Install| Uv
+  Uv -->|Install| Python
+  Uv -->|Install| RenderCV
+  Python --> RenderCV
 ```
 
 To watch the source file for changes and continuously build the output, run
