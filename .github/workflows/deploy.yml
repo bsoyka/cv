@@ -32,6 +32,12 @@ jobs:
       - name: Build CV PDF
         run: mise build
 
+      - name: Upload PDF as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: cv
+          path: rendercv_output/Ben_Soyka_CV.pdf
+
       - name: Check out website repo
         uses: actions/checkout@v6
         with:
