@@ -35,6 +35,23 @@ cv:
         highlights:
           - Provide essential support at 24/7 information desks in student residential halls, ensuring efficient customer service while also responding to building emergencies.
           - Work independently during overnight and late-hour shifts, demonstrating reliability and independence.
+      - company: Ben Soyka Photography
+        position: Photographer
+        start_date: 2023
+        highlights:
+          - Run a self-employed photography business, specializing in senior, family, event, and headshot photography, with 50+ client galleries delivered.
+          - Manage all aspects of the business, including photography, editing, client relations, advertising, and financial operations.
+          - Promote services through social media, a self-designed website, and campus marketing, fostering a strong client base through referrals.
+          - Deliver high-quality, true-to-color edits using Photoshop and Lightroom, with a focus on bright, candid poses tailored to client needs.
+          - Ensure seamless client experiences from booking to final delivery using Pixieset for management and distribution.
+      - company: Medium
+        position: Freelance Contributing Writer
+        start_date: 2019-08
+        highlights:
+          - Write and publish articles on a variety of topics, including programming news, tutorials, and writing insights, with a focus on providing valuable content to readers.
+          - Authored 60+ stories, accumulating a total of 198,000 impressions, including a widely shared article with 100,000 views.
+          - Engage with readers by responding to comments and fostering discussions to enhance reader interaction and community building.
+          - Develop article ideas through research and personal insights, aiming to address and assist reader needs across diverse subjects.
     projects:
       - name: "[Wikipedia Editing Bot](https://github.com/bsoyka/wikipedia-bot)"
         start_date: 2022-03
