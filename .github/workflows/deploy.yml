@@ -98,7 +98,7 @@ jobs:
 
       - name: Copy PDF into brand repo
         run: |
-          cp Ben_Soyka_CV.pdf brand-repo/cv.pdf
+          cp Ben_Soyka_CV.pdf brand-repo/bsoyka-cv.pdf
 
       - name: Configure Git user
         run: |
