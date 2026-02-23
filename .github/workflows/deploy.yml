@@ -41,7 +41,7 @@ jobs:
 
     environment:
       name: production
-      url: https://bsoyka.me/cv.pdf
+      url: https://bensoyka.com/cv.pdf
 
     steps:
       - name: Download PDF artifact
