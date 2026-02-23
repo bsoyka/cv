@@ -108,7 +108,7 @@ jobs:
       - name: Commit and push updated PDF
         working-directory: brand-repo
         run: |
-          git add cv.pdf
+          git add bsoyka-cv.pdf
           if git diff --cached --quiet; then
             echo "No changes to commit."
             exit 0
