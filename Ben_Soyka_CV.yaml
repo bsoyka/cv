@@ -28,6 +28,11 @@ cv:
       - label: Tools
         details: Git/GitHub, Docker, Amazon Web Services, macOS, Linux, Windows
     experience:
+      - company: Thomson Reuters
+        position: Software Engineer Intern
+        start_date: 2026-02-16
+        location: Remote
+        summary: Contracted through Maverick Software Consulting as a software engineer intern.
       - company: University of Minnesota Housing and Residential Life
         position: Office Assistant
         start_date: 2025-01
