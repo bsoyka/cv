@@ -35,14 +35,14 @@ cv:
         summary: Contracted through Maverick Software Consulting as a software engineer intern.
       - company: University of Minnesota Housing and Residential Life
         position: Office Assistant
-        start_date: 2025-01
+        start_date: 2025-01-21
         location: Minneapolis, MN
         highlights:
           - Provide essential support at 24/7 information desks in student residential halls, ensuring efficient customer service while also responding to building emergencies.
           - Work independently during overnight and late-hour shifts, demonstrating reliability and independence.
       - company: Ben Soyka Photography
         position: Photographer
-        start_date: 2023
+        start_date: 2023-04-23
         highlights:
           - Run a self-employed photography business, specializing in senior, family, event, and headshot photography, with 50+ client galleries delivered.
           - Manage all aspects of the business, including photography, editing, client relations, advertising, and financial operations.
@@ -51,7 +51,7 @@ cv:
           - Ensure seamless client experiences from booking to final delivery using Pixieset for management and distribution.
       - company: Medium
         position: Freelance Contributing Writer
-        start_date: 2019-08
+        start_date: 2019-08-06
         highlights:
           - Write and publish articles on a variety of topics, including programming news, tutorials, and writing insights, with a focus on providing valuable content to readers.
           - Authored 60+ stories, accumulating a total of 198,000 impressions, including a widely shared article with 100,000 views.
@@ -59,7 +59,7 @@ cv:
           - Develop article ideas through research and personal insights, aiming to address and assist reader needs across diverse subjects.
     projects:
       - name: "[Nudge](https://github.com/bsoyka/nudge)"
-        start_date: 2026-02-14
+        date: 2026-02-14
         highlights:
           - Developed a full-stack social habit tracking application using React, TypeScript, and Firebase.
           - Created as a hackathon project for MinneHack 2026 with a small group of students.
