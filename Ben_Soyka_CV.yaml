@@ -58,6 +58,11 @@ cv:
           - Engage with readers by responding to comments and fostering discussions to enhance reader interaction and community building.
           - Develop article ideas through research and personal insights, aiming to address and assist reader needs across diverse subjects.
     projects:
+      - name: "[Nudge](https://github.com/bsoyka/nudge)"
+        start_date: 2026-02-14
+        highlights:
+          - Developed a full-stack social habit tracking application using React, TypeScript, and Firebase.
+          - Created as a hackathon project for MinneHack 2026 with a small group of students.
       - name: "[Wikipedia Editing Bot](https://github.com/bsoyka/wikipedia-bot)"
         start_date: 2022-03
         highlights:
