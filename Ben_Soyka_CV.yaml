@@ -24,7 +24,7 @@ cv:
           - "Anticipated graduation: Dec 2027"
     skills:
       - label: Programming Languages
-        details: Python, Java, R, C, OCaml, HTML, JavaScript, CSS
+        details: Python, Java, R, C++, C, OCaml, HTML, JavaScript, CSS, Perl, C#
       - label: Tools
         details: Git/GitHub, Docker, Amazon Web Services, macOS, Linux, Windows
     experience:
@@ -32,7 +32,7 @@ cv:
         position: Software Engineer Intern
         start_date: 2026-02-16
         location: Remote
-        summary: Contracted through Maverick Software Consulting as a software engineer intern.
+        summary: Contracted through Maverick Software Consulting as a software engineer intern, working on tax and accounting software.
       - company: University of Minnesota Housing and Residential Life
         position: Office Assistant
         start_date: 2025-01-21
