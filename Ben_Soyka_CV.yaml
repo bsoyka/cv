@@ -133,6 +133,8 @@ cv:
         summary: Awarded for supporting morale activities for thousands of military family members.
 design:
   theme: classic
+  typography:
+    font_family: IBM Plex Sans
 settings:
   render_command:
     dont_generate_markdown: true
