@@ -20,7 +20,7 @@ cv:
         start_date: 2024-08
         location: Minneapolis, MN
         highlights:
-          - "Cumulative GPA: 3.84"
+          - "Cumulative GPA: 3.82"
           - "Anticipated graduation: Dec 2027"
     skills:
       - label: Programming Languages
@@ -122,7 +122,7 @@ cv:
     awards:
       - name: UMN College of Science and Engineering Dean's List
         location: Minneapolis, MN
-        summary: Recognized in 3/3 semesters for "superior academic performance."
+        summary: Recognized in 4/4 semesters for "superior academic performance."
       - name: Leavenworth High School Horizon Scholar
         date: 2024-04
         location: Leavenworth, KS
