@@ -1,10 +1,10 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.5/schema.json
 cv:
   name: Ben Soyka
-  location: Minneapolis, MN
+  location: Minneapolis
   email: ben@bensoyka.com
   phone: +1-253-344-0299
-  website: https://bsoyka.me
+  website: https://bensoyka.com
   social_networks:
     - network: LinkedIn
       username: bsoyka
