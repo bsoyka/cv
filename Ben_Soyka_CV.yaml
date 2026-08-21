@@ -79,8 +79,7 @@ cv:
         highlights:
           - Lead the team's project to enter the 2027 International Rocket Engineering Competition (IREC) through coordination with various leads, members, mentors, and outside partners.
           - Research, develop, and test high-powered amateur rocketry projects focused on testing new concepts.
-          - Previously led recovery design and operations for the team's entry in the 2026 Space Grant Midwest High-Power Rocketry Competition.
-          - Instruct and assist team members in the use of Git and GitHub, including standard branch and commit conventions.
+          - Previously led recovery for the team's winning entry in the 2026 Space Grant Midwest High-Power Rocketry Competition.
           - Designed, built, and launched [a personal rocket](https://github.com/bsoyka/prison-mike) to 1,995 ft, used to earn a Level 1 certification from the Tripoli Rocketry Association.
       - company: "[UMN Science and Engineering Student Board](https://sesb.umn.edu/)"
         position: Plumb Bob (CSE Week) Co-Director
@@ -109,6 +108,10 @@ cv:
         date: 2024-01
         location: San Antonio, TX
         summary: Awarded for positively impacting local military families, schools, and communities.
+      - name: SevenDays Kindness Action Scholarship
+        date: 2024-01
+        location: Merriam, KS
+        summary: Awarded for my work in creating Blue Heartbeat, a school-wide campaign for mental health awareness and positive morale.
       - name: Boy Scouts of America Eagle Scout
         date: 2023-10
         location: Fort Leavenworth, KS
