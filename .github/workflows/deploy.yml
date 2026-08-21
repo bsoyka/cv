@@ -74,5 +74,5 @@ jobs:
             echo "No changes to commit."
             exit 0
           fi
-          git commit -m "chore: update CV [skip ci]" -m "From https://gh.bsoyka.me/cv"
+          git commit -m "chore: update CV" -m "From https://gh.bsoyka.me/cv"
           git push origin HEAD
