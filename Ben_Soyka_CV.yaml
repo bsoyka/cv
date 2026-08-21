@@ -22,57 +22,41 @@ cv:
         highlights:
           - "Cumulative GPA: 3.82"
           - "Anticipated graduation: Dec 2027"
+          - "Dean's List: 4/4 semesters"
     skills:
       - label: Programming Languages
         details: Python, Java, R, C++, C, OCaml, HTML, JavaScript, CSS, Perl, C#
       - label: Tools
-        details: Git/GitHub, Docker, Amazon Web Services, macOS, Linux, Windows
+        details: Git/GitHub, Amazon Web Services, Docker, Terraform, macOS, Linux, Windows
     experience:
       - company: Thomson Reuters
         position: Software Engineer Intern
         start_date: 2026-02-16
-        location: Remote
-        summary: Contracted through Maverick Software Consulting as a software engineer intern, working on tax and accounting software.
-      - company: University of Minnesota Housing and Residential Life
-        position: Office Assistant
-        start_date: 2025-01-21
-        location: Minneapolis, MN
+        location: Eagan, MN (Hybrid)
+        summary: Contracted through Maverick Software Consulting.
         highlights:
-          - Provide essential support at 24/7 information desks in student residential halls, ensuring efficient customer service while also responding to building emergencies.
-          - Work independently during overnight and late-hour shifts, demonstrating reliability and independence.
+          - Assisting in maintaining a legacy backend tax return processing codebase.
       - company: Ben Soyka Photography
         position: Photographer
         start_date: 2023-04-23
         highlights:
-          - Run a self-employed photography business, specializing in senior, family, event, and headshot photography, with 50+ client galleries delivered.
+          - Run a self-employed photography business, specializing in portrait and event photography, with 100+ client galleries delivered.
           - Manage all aspects of the business, including photography, editing, client relations, advertising, and financial operations.
           - Promote services through social media, a self-designed website, and campus marketing, fostering a strong client base through referrals.
-          - Deliver high-quality, true-to-color edits using Photoshop and Lightroom, with a focus on bright, candid poses tailored to client needs.
-          - Ensure seamless client experiences from booking to final delivery using Pixieset for management and distribution.
-      - company: Medium
-        position: Freelance Contributing Writer
-        start_date: 2019-08-06
+      - company: University of Minnesota Housing and Residential Life
+        position: Office Assistant
+        start_date: 2025-01-21
+        end_date: 2026-08-20
+        location: Minneapolis, MN
         highlights:
-          - Write and publish articles on a variety of topics, including programming news, tutorials, and writing insights, with a focus on providing valuable content to readers.
-          - Authored 60+ stories, accumulating a total of 198,000 impressions, including a widely shared article with 100,000 views.
-          - Engage with readers by responding to comments and fostering discussions to enhance reader interaction and community building.
-          - Develop article ideas through research and personal insights, aiming to address and assist reader needs across diverse subjects.
+          - Provided essential support at 24/7 information desks in student residential halls, ensuring efficient customer service while also responding to building emergencies.
+          - Worked independently during overnight and late-hour shifts, demonstrating reliability and independence.
     projects:
-      - name: "[Nudge](https://github.com/bsoyka/nudge)"
-        date: 2026-02-14
-        highlights:
-          - Developed a full-stack social habit tracking application using React, TypeScript, and Firebase.
-          - Created as a hackathon project for MinneHack 2026 with a small group of students.
       - name: "[Wikipedia Editing Bot](https://github.com/bsoyka/wikipedia-bot)"
         start_date: 2022-03
         highlights:
-          - Used Python to develop several scripts that perform daily automated edits on the English Wikipedia through the MediaWiki API.
+          - Used Python and AWS to develop an event-driven platform to perform daily automated edits on the English Wikipedia.
           - Reduced errors and mistakes to near-zero as the bot has performed over 20,000 trivial edits on live articles, saving human editors valuable time.
-      - name: "[Personal Website](https://bensoyka.com)"
-        start_date: 2020-08
-        highlights:
-          - Designed and built a personal landing page from scratch using Astro, Svelte, UnoCSS, and Motion, with a focus on accessibility, responsiveness, and mobile-friendliness.
-          - Manage the live deployment using Cloudflare Workers.
       - name: "[Advent of Code Practice](https://github.com/bsoyka/advent-of-code)"
         start_date: 2019-12
         highlights:
@@ -80,32 +64,33 @@ cv:
           - Learned techniques to process large inputs with efficiency and accuracy.
           - Maintain a collection of public solutions with proper documentation and a focus on clean, easy-to-understand code.
     "Activities and Leadership":
-      - company: "[UMN Twin Cities Rotaract Club](https://gopherlink.umn.edu/4567/home/)"
-        position: Vice President, Past Communications Coordinator
+      - company: "[Twin Cities Rotaract Club at UMN](https://gopherlink.umn.edu/4567/home/)"
+        position: President
         start_date: 2024-09
         location: Minneapolis, MN
         highlights:
-          - Assist in leading an active student organization dedicated to volunteering with various community initiatives in the Minneapolis area.
-          - Elected as president for the 2026–2027 academic year, requiring careful preparation for a smooth transition.
-          - Previously managed professional email communications to over 200 club members.
-      - company: "[UMN Science and Engineering Student Board](https://sesb.umn.edu/)"
-        position: CSE Week Marketing Director
-        start_date: 2026-02
-        location: Minneapolis, MN
-        highlights:
-          - Planned and executed CSE Week 2026, a five-day event to celebrate the UMN College of Science and Engineering and its student groups.
-          - Focused on directing marketing and communication efforts to reach an estimated 4,000 attendees throughout the week, doubling student participation from the previous year.
-          - Coordinated with other student planners, University officials, and sponsors to ensure success before and during the event.
+          - Lead an active student organization dedicated to volunteering with various community initiatives in the Minneapolis area.
+          - Manage an executive board and officer team to lead the club's activities and decisions.
+          - Previously served as Vice President and Communications Coordinator.
       - company: "[UMN Rocket Team](https://rkt.aem.umn.edu/)"
-        position: Midwest Recovery Lead, Special Projects Subteam
+        position: Interim IREC Project Lead
         start_date: 2025-09
         location: Minneapolis, MN
         highlights:
-          - Research, develop, and test high-powered amateur rocketry projects focused on testing new concepts, including two-stage flights.
-          - Lead recovery design and operations for the team's entry in the 2026 Space Grant Midwest High-Power Rocketry Competition.
+          - Lead the team's project to enter the 2027 International Rocket Engineering Competition (IREC) through coordination with various leads, members, mentors, and outside partners.
+          - Research, develop, and test high-powered amateur rocketry projects focused on testing new concepts.
+          - Previously led recovery design and operations for the team's entry in the 2026 Space Grant Midwest High-Power Rocketry Competition.
           - Instruct and assist team members in the use of Git and GitHub, including standard branch and commit conventions.
           - Designed, built, and launched [a personal rocket](https://github.com/bsoyka/prison-mike) to 1,995 ft, used to earn a Level 1 certification from the Tripoli Rocketry Association.
-      - company: "[Verticality Casual Climbing](https://gopherlink.umn.edu/4984/home/)"
+      - company: "[UMN Science and Engineering Student Board](https://sesb.umn.edu/)"
+        position: Plumb Bob (CSE Week) Co-Director
+        start_date: 2026-02
+        location: Minneapolis, MN
+        highlights:
+          - Leading the preparation for CSE Week 2027, a five-day event to celebrate the UMN College of Science and Engineering and its student groups, after assisting with the previous year's event.
+          - Coordinate with other student planners, University officials, and sponsors to ensure success before and during the event.
+          - In 2026, focused on directing marketing and communication efforts to reach an estimated 4,000 attendees throughout the week, doubling student participation from the previous year.
+      - company: "[Verticality Casual Climbing at UMN](https://gopherlink.umn.edu/4984/home/)"
         position: Treasurer
         start_date: 2025-08
         location: Minneapolis, MN
@@ -120,13 +105,6 @@ cv:
         highlights:
           - Worked with other college-level student and administrative leadership to plan events that promoted positivity in the University of Minnesota community.
     awards:
-      - name: UMN College of Science and Engineering Dean's List
-        location: Minneapolis, MN
-        summary: Recognized in 4/4 semesters for "superior academic performance."
-      - name: Leavenworth High School Horizon Scholar
-        date: 2024-04
-        location: Leavenworth, KS
-        summary: Recognized for academic success with a 4.0+ cumulative GPA.
       - name: Operation Homefront Military Child of the Year Semifinalist
         date: 2024-01
         location: San Antonio, TX
@@ -134,7 +112,7 @@ cv:
       - name: Boy Scouts of America Eagle Scout
         date: 2023-10
         location: Fort Leavenworth, KS
-        summary: Demonstrated long-term leadership, initiative, and commitment to community service.
+        summary: Demonstrated long-term leadership, initiative, and commitment to community service, earning the highest rank attainable in the Scouts BSA program.
       - name: US Army Civilian Service Achievement Medal
         date: 2022-04
         location: El Paso, TX
